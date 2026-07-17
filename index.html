@@ -1240,7 +1240,7 @@
               <option>Playgroup</option><option>Nursery</option><option>Prep</option>
               <option>1st</option><option>2nd</option><option>3rd</option>
               <option>4th</option><option>5th</option><option>6th</option>
-              <option>7th</option><option>8th</option><option>9th</option><option>10th</option>
+              <option>7th</option><option>8th</option><option>9th</option><option>10th</option><option>11th</option><option>12th</option>
             </select>
             <label>Section:</label>
             <select id="filterSection" onchange="loadStudents()">
@@ -1270,7 +1270,8 @@
             <div><label>Gender</label><select id="admGender"><option value="Male">Male</option><option value="Female">Female</option></select></div>
             <div><label>Phone</label><input id="admPhone" placeholder="03XXXXXXXXX"></div>
             <div class="full-width"><label>Address</label><input id="admAddress" placeholder="Address"></div>
-            <div><label>Class</label><select id="admClass"><option>Playgroup</option><option>Nursery</option><option>Prep</option><option>1st</option><option>2nd</option><option>3rd</option><option>4th</option><option>5th</option><option>6th</option><option>7th</option><option>8th</option><option>9th</option><option>10th</option></select></div>
+            <div><label>Class</label><select id="admClass"><option>Playgroup</option><option>Nursery</option><option>Prep</option><option>1st</option><option>2nd</option><option>3rd</option><option>4th</option><option>5th</option><option>6th</option><option>7th</option><option>8th</option><option>9th</option><option>10th</option><option>11th</option><option>12th</option>
+            </select></select></div>
             <div><label>Section</label><select id="admSection"><option>A</option><option>B</option><option>C</option><option>D</option></select></div>
             <div><label>Roll No</label><input id="admRoll" placeholder="Roll number"></div>
             <div><label>Admission Date</label><input id="admDate" type="date"></div>
@@ -1323,7 +1324,8 @@
               <option>Playgroup</option><option>Nursery</option><option>Prep</option>
               <option>1st</option><option>2nd</option><option>3rd</option>
               <option>4th</option><option>5th</option><option>6th</option>
-              <option>7th</option><option>8th</option><option>9th</option><option>10th</option>
+              <option>7th</option><option>8th</option><option>9th</option><option>10th</option><option>11th</option><option>12th</option>
+            </select>
             </select>
             <button class="btn btn-danger" onclick="clearAllSavedAdmissions()">🗑️ Clear All</button>
           </div>
@@ -1355,7 +1357,8 @@
               <option>Playgroup</option><option>Nursery</option><option>Prep</option>
               <option>1st</option><option>2nd</option><option>3rd</option>
               <option>4th</option><option>5th</option><option>6th</option>
-              <option>7th</option><option>8th</option><option>9th</option><option>10th</option>
+              <option>7th</option><option>8th</option><option>9th</option><option>10th</option><option>11th</option><option>12th</option>
+            </select>
             </select>
             <label>Section:</label>
             <select id="promSection"><option>A</option><option>B</option><option>C</option><option>D</option></select>
@@ -1364,7 +1367,8 @@
               <option>Playgroup</option><option>Nursery</option><option>Prep</option>
               <option>1st</option><option>2nd</option><option>3rd</option>
               <option>4th</option><option>5th</option><option>6th</option>
-              <option>7th</option><option>8th</option><option>9th</option><option>10th</option>
+              <option>7th</option><option>8th</option><option>9th</option><option>10th</option><option>11th</option><option>12th</option>
+            </select>
             </select>
             <button class="btn btn-success" onclick="promoteStudents()">🚀 Promote</button>
           </div>
@@ -1448,7 +1452,8 @@
               <option>Playgroup</option><option>Nursery</option><option>Prep</option>
               <option>1st</option><option>2nd</option><option>3rd</option>
               <option>4th</option><option>5th</option><option>6th</option>
-              <option>7th</option><option>8th</option><option>9th</option><option>10th</option>
+              <option>7th</option><option>8th</option><option>9th</option><option>10th</option><option>11th</option><option>12th</option>
+            </select>
             </select>
             <label>Section:</label>
             <select id="ttSection"><option>A</option><option>B</option><option>C</option><option>D</option></select>
@@ -1472,7 +1477,8 @@
                 <option>Playgroup</option><option>Nursery</option><option>Prep</option>
                 <option>1st</option><option>2nd</option><option>3rd</option>
                 <option>4th</option><option>5th</option><option>6th</option>
-                <option>7th</option><option>8th</option><option>9th</option><option>10th</option>
+                <option>7th</option><option>8th</option><option>9th</option><option>10th</option><option>11th</option><option>12th</option>
+            </select>
               </select>
               <select id="vSection" style="width:100%;padding:12px;margin-bottom:12px;background:rgba(255,255,255,0.8);border:2px solid var(--border-light);border-radius:10px;color:var(--text-primary);font-family:inherit;">
                 <option>A</option><option>B</option><option>C</option><option>D</option>
@@ -1555,7 +1561,8 @@
             <label>Year:</label><select id="rpYear"></select>
           </div>
           <div id="classOptions" class="form-row" style="display:none;">
-            <label>Class:</label><select id="rpClass"><option value="All Classes">All Classes</option><option>Playgroup</option><option>Nursery</option><option>Prep</option><option>1st</option><option>2nd</option><option>3rd</option><option>4th</option><option>5th</option><option>6th</option><option>7th</option><option>8th</option><option>9th</option><option>10th</option></select>
+            <label>Class:</label><select id="rpClass"><option value="All Classes">All Classes</option><option>Playgroup</option><option>Nursery</option><option>Prep</option><option>1st</option><option>2nd</option><option>3rd</option><option>4th</option><option>5th</option><option>6th</option><option>7th</option><option>8th</option><option>9th</option><option>10th</option><option>11th</option><option>12th</option>
+            </select></select>
             <label>Section:</label><select id="rpSection"><option value="All Sections">All</option><option>A</option><option>B</option><option>C</option><option>D</option></select>
           </div>
           <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap;">
@@ -1595,7 +1602,8 @@
       <div class="modal-header"><h2>➕ Add New Student</h2><button class="modal-close" onclick="closeModal('addStudentModal')">✕</button></div>
       <div class="form-row"><label>👤 Name:</label><input id="modalName" placeholder="Full name"></div>
       <div class="form-row"><label>👨 Father:</label><input id="modalFather" placeholder="Father's name"></div>
-      <div class="form-row"><label>📚 Class:</label><select id="modalClass"><option>Playgroup</option><option>Nursery</option><option>Prep</option><option>1st</option><option>2nd</option><option>3rd</option><option>4th</option><option>5th</option><option>6th</option><option>7th</option><option>8th</option><option>9th</option><option>10th</option></select><label>Section:</label><select id="modalSection"><option>A</option><option>B</option><option>C</option><option>D</option></select></div>
+      <div class="form-row"><label>📚 Class:</label><select id="modalClass"><option>Playgroup</option><option>Nursery</option><option>Prep</option><option>1st</option><option>2nd</option><option>3rd</option><option>4th</option><option>5th</option><option>6th</option><option>7th</option><option>8th</option><option>9th</option><option>10th</option><option>11th</option><option>12th</option>
+            </select></select><label>Section:</label><select id="modalSection"><option>A</option><option>B</option><option>C</option><option>D</option></select></div>
       <div class="form-row"><label>📱 Phone:</label><input id="modalPhone" placeholder="03XX-XXXXXXX"></div>
       <div class="form-row"><label>📍 Address:</label><input id="modalAddress" placeholder="Address" style="flex:2;"></div>
       <div class="form-row"><label>💰 Monthly:</label><input id="modalMonthly" type="number" value="0" oninput="updateTotalFee()"></div>
@@ -1622,7 +1630,8 @@
       <div class="edit-student-grid">
         <div class="full-width"><label>Name *</label><input id="editName" placeholder="Full name"></div>
         <div class="full-width"><label>Father *</label><input id="editFather" placeholder="Father's name"></div>
-        <div><label>Class</label><select id="editClass"><option>Playgroup</option><option>Nursery</option><option>Prep</option><option>1st</option><option>2nd</option><option>3rd</option><option>4th</option><option>5th</option><option>6th</option><option>7th</option><option>8th</option><option>9th</option><option>10th</option></select></div>
+        <div><label>Class</label><select id="editClass"><option>Playgroup</option><option>Nursery</option><option>Prep</option><option>1st</option><option>2nd</option><option>3rd</option><option>4th</option><option>5th</option><option>6th</option><option>7th</option><option>8th</option><option>9th</option><option>10th</option><option>11th</option><option>12th</option>
+            </select></select></div>
         <div><label>Section</label><select id="editSection"><option>A</option><option>B</option><option>C</option><option>D</option></select></div>
         <div><label>Phone</label><input id="editPhone" placeholder="03XX-XXXXXXX"></div>
         <div><label>Address</label><input id="editAddress" placeholder="Address"></div>
@@ -1698,7 +1707,7 @@
 
     const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     const YEARS = ['2020', '2021', '2022', '2023', '2024', '2025', '2026', '2027', '2028', '2029', '2030', '2031', '2032'];
-    const CLASSES = ['Playgroup', 'Nursery', 'Prep', '1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th'];
+    const CLASSES = ['Playgroup', 'Nursery', 'Prep', '1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th', '11th', '12th'];
     const SECTIONS = ['A', 'B', 'C', 'D'];
     const DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
     const PERIODS = ['Period 1', 'Period 2', 'Period 3', 'Period 4', 'Period 5', 'Period 6', 'Period 7', 'Period 8'];
